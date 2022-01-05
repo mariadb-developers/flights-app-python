@@ -64,7 +64,7 @@ Next, because this repo uses a [git submodule](https://git-scm.com/book/en/v2/Gi
 $ git submodule update --init --recursive
 ```
 
-## Configure, Build and Run the App <a name="app"></a>
+## 3.) Configure, Build and Run the App <a name="app"></a>
 
 **Important**: Before proceeding you'll need to have a MariaDB ColumnStore instance preloaded with flight data for this application to use. You can find more information [here](#mariadb).
 
