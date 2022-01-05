@@ -152,23 +152,11 @@ From [/src/api](src/api) execute the following CLI command to start the the Pyth
 ```bash
 $ python3 api.py
 ```
-### e.) Build and run the [UI (Client) app](src/client) <a name="build-run-client"></a>
+### e.) Build and run the [UI (Client) app](https://github.com/mariadb-developers/flights-app-client) <a name="build-run-client"></a>
 
-Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the [client](src/client) folder of this repo.
+Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the `client` folder of this repo.
 
-To start and run the API application you need to execute the following commands within the [client root folder](src/client).
-
-1. Install the Node.js packages (dependendies) for the app.
-
-```bash
-$ npm install
-```
-
-2. Run the the app, which will be available via a browser at http://localhost:3000.
-
-```bash 
-$ npm start
-``` 
+To start the `client` application follow the instructions [here](https://github.com/mariadb-developers/flights-app-client).
 
 ## Support and Contribution <a name="support-contribution"></a>
 
